@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+    text-align: center;
+}
+h1{
+    color: #772163;
+}
+.top {
+    width: 100%;
+    background-color: #DE9FD0;
+    height: 12px;
+}
+header {
+    width: 100%;
+    text-align: center;
+}
+.addBox {
+    background-color: #F1DBED;
+    width: 100%;
+    text-align: center;
+    padding: 20px 0px;
+}
+.addBox input {
+    width: 20%;
+    border-radius: 20px;
+    padding: 6px;
+    border-color: #DE9FD0;
+    background-color: rgba(255, 255, 255, 0.545);
+}
+.addBox button {
+    background-color: transparent;
+    border: none;
+    color: #b069a0;
+    font-size: 20px;
+    text-align: center;
+}
+
+.tarefaBox {
+    background-color: rgba(220, 220, 220, 0.525);
+    width: 70%;
+    margin: 0 auto;
+    border-radius: 20px;
+    box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.336);
+    padding: 20px;
+}
+
+.tarefaBox ul {
+    margin-right: 20px;
+}
+
+.tarefaBox li {
+    background-color: rgba(255, 255, 255, 0.518);
+    padding: 10px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #be89b2;
+    text-align: start;
+}
+.tarefaBox button {
+    background-color: transparent;
+    border: none;
+    color: #772163;
+}
+.button {
+    text-align: right;
+}
+
+.itemAtivo {
+    list-style-type: none;
+}
+.itemInativo {
+    list-style-type: none;
+}
+.principal{
+    padding: 40px 0px;
+    width: 100%;
+}
