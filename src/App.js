@@ -36,7 +36,7 @@ function App() {
       <h1>TO DO LIST</h1>
     </header>
       <div className="addBox">
-        <input type="text" nome= "tarefa" placeholder="Digite sua tarefa" value={tarefa.texto} onChange={ (e) => setTarefa( {id: Math.random(), texto: e.target.value, status: false})} />
+        <input type="text" nome= "tarefa" placeholder="Digite sua tarefa" maxLength={45} value={tarefa.texto} onChange={ (e) => setTarefa( {id: Math.random(), texto: e.target.value, status: false})} />
         <button onClick={addTarefa}><i class="fa-solid fa-circle-plus"></i></button>
       </div>
       <div className="principal">
